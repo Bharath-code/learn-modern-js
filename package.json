@@ -1,0 +1,15 @@
+{
+  "name": "master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dataType.js",
+  "scripts": {
+    "build" : "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
