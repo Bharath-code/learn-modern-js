@@ -96,6 +96,9 @@
     // @ts-ignore
     console.log([] == undefined)
     
+    /**
+     * @param {string | number | boolean | never[] | null | undefined} value
+     */
     function capture(value){
         if(value == null){
             console.log('null or undefined')
@@ -109,6 +112,7 @@
     capture(0)
     capture('')
     capture(false)
+    // @ts-ignore
     capture({})
     capture([])
     
