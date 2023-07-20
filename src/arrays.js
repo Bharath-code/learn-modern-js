@@ -346,6 +346,10 @@
   console.log(itemB)
 
   const itemD = ["car", "remote", "tv"];
+  /**
+   * @param {any[]} a
+   * @param {string | any[]} b
+   */
   function isArrEqual(a,b){
     // @ts-ignore
     return a.length === b.length && a.every((_,i) => a[i] === b[i])
